@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>Has cerrado tú sesión</h2>
+    <p>¡Esperamos vuelvas pronto!</p>
+    <a href="{% url 'login' %}" class="btn btn-primary">Iniciar sesión nuevamente</a>
+</div>
+{% endblock %}
